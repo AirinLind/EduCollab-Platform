@@ -1,0 +1,223 @@
+.team-management {
+  padding: 20px 0;
+}
+
+.team-members {
+  margin-bottom: 20px;
+}
+
+.team-member-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 8px 0;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.member-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.member-role {
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.role-owner {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.role-member {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.role-mentor {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.btn-remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-remove:hover {
+  background-color: #f8d7da;
+}
+
+.btn-remove:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.invite-section {
+  margin: 25px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.invite-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.invite-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.btn-invite {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-invite:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.btn-invite:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.join-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #e7f3ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.btn-join {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.btn-join:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.btn-join:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.join-info {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.already-member {
+  padding: 15px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.already-member p {
+  margin: 5px 0;
+  color: #155724;
+}
+
+.member-permissions {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.pending-invite {
+  padding: 15px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn-accept-invite {
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-accept-invite:hover:not(:disabled) {
+  background-color: #138496;
+}
+
+.btn-accept-invite:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.guest-message {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .team-member-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .invite-form {
+    flex-direction: column;
+  }
+  
+  .btn-remove {
+    align-self: flex-end;
+  }
+}

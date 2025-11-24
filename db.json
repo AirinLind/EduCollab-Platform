@@ -1,0 +1,542 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "student@example.com",
+      "name": "Иван Петров",
+      "role": "student",
+      "bio": "Студент компьютерных наук, увлекаюсь веб-разработкой",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "email": "teacher@example.com",
+      "name": "Мария Сидорова",
+      "role": "teacher",
+      "bio": "Преподаватель веб-технологий",
+      "createdAt": "2024-01-10T09:00:00Z"
+    },
+    {
+      "id": "816",
+      "name": "Arika",
+      "email": "arika@yandex.ru",
+      "password": "pass",
+      "role": "student",
+      "bio": "",
+      "createdAt": "2025-11-24T11:47:03.460Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Интернет-магазин на React",
+      "description": "Разработка полнофункционального интернет-магазина с корзиной, фильтрами и оформлением заказа",
+      "status": "in_progress",
+      "difficulty": "intermediate",
+      "tags": [
+        "react",
+        "typescript",
+        "ecommerce"
+      ],
+      "ownerId": 1,
+      "teamMembers": [
+        1,
+        2
+      ],
+      "createdAt": "2024-01-20T14:30:00Z",
+      "updatedAt": "2024-01-25T16:45:00Z",
+      "deadline": "2024-03-01",
+      "repositoryUrl": "https://github.com/example/shop",
+      "demoUrl": "https://example-shop.netlify.app",
+      "maxTeamSize": 5,
+      "lookingForMembers": true,
+      "likes": 3,
+      "progress": 33
+    },
+    {
+      "id": "2",
+      "title": "Анализ данных с Python",
+      "description": "Проект по анализу и визуализации данных с использованием pandas и matplotlib",
+      "status": "planning",
+      "difficulty": "beginner",
+      "tags": [
+        "python",
+        "data-science",
+        "pandas"
+      ],
+      "ownerId": 2,
+      "teamMembers": [
+        2
+      ],
+      "createdAt": "2024-01-22T11:20:00Z",
+      "updatedAt": "2024-01-22T11:20:00Z",
+      "maxTeamSize": 3,
+      "lookingForMembers": false,
+      "likes": 1,
+      "progress": 0
+    },
+    {
+      "id": "1020",
+      "title": "Танцевальная студия",
+      "description": "Лендинг для танцевальной студии \"Dance Me\" на htms, css",
+      "difficulty": "beginner",
+      "status": "in_progress",
+      "tags": [
+        "танцы",
+        "html",
+        "css"
+      ],
+      "deadline": "2025-11-20",
+      "repositoryUrl": "https://github.com/AirinLind/last-project.git",
+      "demoUrl": "https://airinlind.github.io/last-project/",
+      "ownerId": 1763540715040,
+      "teamMembers": [
+        1763540715040
+      ],
+      "createdAt": "2025-11-19T08:49:04.211Z",
+      "updatedAt": "2025-11-19T08:49:04.211Z",
+      "maxTeamSize": 2,
+      "lookingForMembers": false,
+      "likes": 2,
+      "progress": 75
+    },
+    {
+      "id": "b0c9",
+      "title": "Сайт с анимацией",
+      "description": "Какой-то сайт с анимацией",
+      "difficulty": "intermediate",
+      "status": "completed",
+      "tags": [
+        "html",
+        "css",
+        "canvas"
+      ],
+      "deadline": "2025-11-15",
+      "repositoryUrl": "https://github.com/AirinLind/Animation-HTML5API.git",
+      "demoUrl": "https://airinlind.github.io/Animation-HTML5API/",
+      "ownerId": 1763540715040,
+      "teamMembers": [
+        1763540715040
+      ],
+      "createdAt": "2025-11-24T11:37:08.336Z",
+      "updatedAt": "2025-11-24T11:37:08.336Z",
+      "maxTeamSize": 1,
+      "lookingForMembers": false,
+      "likes": 5,
+      "progress": 100
+    },
+    {
+      "id": "e406",
+      "title": "Машинка",
+      "description": "Прикольная машинка на 1 курсе",
+      "difficulty": "intermediate",
+      "status": "in_progress",
+      "tags": [
+        "html",
+        "css",
+        "машинка"
+      ],
+      "deadline": "2023-09-12",
+      "repositoryUrl": "https://github.com/AirinLind/Car.git",
+      "demoUrl": "https://airinlind.github.io/Car/",
+      "maxTeamSize": 5,
+      "lookingForMembers": true,
+      "ownerId": "816",
+      "teamMembers": [
+        "816"
+      ],
+      "createdAt": "2025-11-24T13:27:33.947Z",
+      "updatedAt": "2025-11-24T13:27:33.947Z",
+      "likes": 2,
+      "progress": 50
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "content": "Отличный проект! Хотел бы присоединиться к команде.",
+      "authorId": 2,
+      "projectId": 1,
+      "createdAt": "2024-01-21T10:15:00Z",
+      "updatedAt": "2024-01-21T10:15:00Z"
+    },
+    {
+      "id": "2",
+      "content": "Спасибо! Мы как раз ищем frontend-разработчика.",
+      "authorId": 1,
+      "projectId": 1,
+      "createdAt": "2024-01-21T14:30:00Z",
+      "updatedAt": "2024-01-21T14:30:00Z"
+    },
+    {
+      "id": "67a5",
+      "content": "Красиво!",
+      "authorId": "816",
+      "projectId": "1020",
+      "createdAt": "2025-11-24T11:48:21.184Z",
+      "updatedAt": "2025-11-24T11:48:21.184Z"
+    },
+    {
+      "id": "6211",
+      "content": "Красота!!!",
+      "authorId": "816",
+      "projectId": "b0c9",
+      "createdAt": "2025-11-24T11:53:38.624Z",
+      "updatedAt": "2025-11-24T11:53:38.624Z"
+    },
+    {
+      "id": "97c2",
+      "content": "Вау",
+      "authorId": "816",
+      "projectId": "b0c9",
+      "createdAt": "2025-11-24T12:12:18.870Z",
+      "updatedAt": "2025-11-24T12:12:18.870Z"
+    },
+    {
+      "id": "2ac9",
+      "content": "afesgrtdhnfgdbfv",
+      "authorId": "816",
+      "projectId": "e406",
+      "createdAt": "2025-11-24T16:53:51.649Z",
+      "updatedAt": "2025-11-24T16:53:51.649Z"
+    }
+  ],
+  "team-members": [
+    {
+      "id": "1",
+      "userId": "1",
+      "projectId": "1",
+      "role": "owner",
+      "joinedAt": "2024-01-20T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "projectId": "1",
+      "role": "member",
+      "joinedAt": "2024-01-21T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "816",
+      "projectId": "e406",
+      "role": "owner",
+      "joinedAt": "2025-11-24T13:27:33.947Z"
+    },
+    {
+      "id": "4",
+      "userId": "1763540715040",
+      "projectId": "1020",
+      "role": "owner",
+      "joinedAt": "2025-11-19T08:49:04.211Z"
+    },
+    {
+      "id": "5",
+      "userId": "1763540715040",
+      "projectId": "b0c9",
+      "role": "owner",
+      "joinedAt": "2025-11-24T11:37:08.336Z"
+    },
+    {
+      "id": "b4e8",
+      "userId": "816",
+      "projectId": "1",
+      "role": "member",
+      "joinedAt": "2025-11-24T16:48:36.366Z"
+    },
+    {
+      "id": "3557",
+      "userId": "816",
+      "projectId": null,
+      "role": "owner",
+      "joinedAt": "2025-11-24T16:54:35.622Z"
+    },
+    {
+      "id": "5b9e",
+      "userId": "1",
+      "projectId": "e406",
+      "role": "member",
+      "joinedAt": "2025-11-24T16:56:06.802Z"
+    }
+  ],
+  "team-invites": [
+    {
+      "id": "b34c",
+      "projectId": "1",
+      "inviteeEmail": "arika@yandex.ru",
+      "inviterId": "1",
+      "createdAt": "2025-11-24T16:48:07.528Z",
+      "status": "pending"
+    },
+    {
+      "id": "8959",
+      "projectId": "e406",
+      "inviteeEmail": "student@example.com",
+      "inviterId": "816",
+      "createdAt": "2025-11-24T16:55:33.053Z",
+      "status": "pending"
+    }
+  ],
+  "project-ratings": [
+    {
+      "id": "bd52",
+      "projectId": "b0c9",
+      "userId": "816",
+      "rating": 4,
+      "createdAt": "2025-11-24T13:58:13.831Z"
+    },
+    {
+      "id": "8522",
+      "projectId": "e406",
+      "userId": "816",
+      "rating": 3,
+      "createdAt": "2025-11-24T13:58:53.046Z"
+    },
+    {
+      "id": "f67e",
+      "projectId": "2",
+      "userId": "816",
+      "rating": 4,
+      "createdAt": "2025-11-24T16:34:24.409Z"
+    },
+    {
+      "id": "7291",
+      "projectId": "1",
+      "userId": "816",
+      "rating": 5,
+      "createdAt": "2025-11-24T16:36:24.351Z"
+    },
+    {
+      "id": "1bdb",
+      "projectId": "1020",
+      "userId": "816",
+      "rating": 5,
+      "createdAt": "2025-11-24T16:46:18.227Z"
+    },
+    {
+      "id": "9bad",
+      "projectId": null,
+      "userId": "816",
+      "rating": 1,
+      "createdAt": "2025-11-24T16:54:42.576Z"
+    }
+  ],
+  "project-likes": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "userId": "2",
+      "createdAt": "2024-01-22T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "projectId": "1",
+      "userId": "816",
+      "createdAt": "2025-11-24T14:00:00Z"
+    },
+    {
+      "id": "3",
+      "projectId": "b0c9",
+      "userId": "816",
+      "createdAt": "2025-11-24T14:01:00Z"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "title": "Проектирование архитектуры",
+      "description": "Создание UML диаграмм и проектирование структуры базы данных",
+      "status": "completed",
+      "dueDate": "2024-02-01",
+      "completedAt": "2024-01-28T10:00:00Z",
+      "createdAt": "2024-01-20T14:30:00Z",
+      "updatedAt": "2024-01-28T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "projectId": "1",
+      "title": "Разработка frontend",
+      "description": "Создание пользовательского интерфейса на React с TypeScript",
+      "status": "in_progress",
+      "dueDate": "2024-02-15",
+      "createdAt": "2024-01-20T14:30:00Z",
+      "updatedAt": "2025-11-24T16:48:49.152Z",
+      "completedAt": "2025-11-24T16:48:47.960Z"
+    },
+    {
+      "id": "3",
+      "projectId": "1",
+      "title": "Разработка backend API",
+      "description": "Создание REST API для работы с товарами и заказами",
+      "status": "pending",
+      "dueDate": "2024-02-20",
+      "createdAt": "2024-01-20T14:30:00Z",
+      "updatedAt": "2024-01-20T14:30:00Z"
+    },
+    {
+      "id": "4",
+      "projectId": "e406",
+      "title": "Создание HTML структуры",
+      "description": "Разработка базовой HTML разметки для машинки",
+      "status": "completed",
+      "dueDate": "2023-08-01",
+      "completedAt": "2025-11-24T16:53:41.964Z",
+      "createdAt": "2025-11-24T13:27:33.947Z",
+      "updatedAt": "2025-11-24T16:53:41.964Z"
+    },
+    {
+      "id": "5",
+      "projectId": "e406",
+      "title": "Стилизация CSS",
+      "description": "Добавление анимаций и стилей для машинки",
+      "status": "completed",
+      "dueDate": "2023-09-01",
+      "createdAt": "2025-11-24T13:27:33.947Z",
+      "updatedAt": "2025-11-24T14:32:59.594Z",
+      "completedAt": "2025-11-24T14:32:59.594Z"
+    },
+    {
+      "id": "6",
+      "projectId": "b0c9",
+      "title": "Проектирование анимаций",
+      "description": "Создание концепции и дизайна анимаций",
+      "status": "completed",
+      "dueDate": "2025-10-01",
+      "completedAt": "2025-09-28T10:00:00Z",
+      "createdAt": "2025-11-24T11:37:08.336Z",
+      "updatedAt": "2025-11-24T11:37:08.336Z"
+    },
+    {
+      "id": "7",
+      "projectId": "b0c9",
+      "title": "Реализация на Canvas",
+      "description": "Программирование анимаций с использованием HTML5 Canvas",
+      "status": "completed",
+      "dueDate": "2025-11-01",
+      "completedAt": "2025-10-28T10:00:00Z",
+      "createdAt": "2025-11-24T11:37:08.336Z",
+      "updatedAt": "2025-11-24T11:37:08.336Z"
+    },
+    {
+      "id": "8",
+      "projectId": "b0c9",
+      "title": "Тестирование и оптимизация",
+      "description": "Финальное тестирование и оптимизация производительности",
+      "status": "completed",
+      "dueDate": "2025-11-10",
+      "completedAt": "2025-11-08T10:00:00Z",
+      "createdAt": "2025-11-24T11:37:08.336Z",
+      "updatedAt": "2025-11-24T11:37:08.336Z"
+    },
+    {
+      "id": "c8e6",
+      "projectId": "e406",
+      "title": "Улучшена стилизация",
+      "description": "Теперь облака двигаются плавно",
+      "status": "pending",
+      "dueDate": "2025-02-10",
+      "createdAt": "2025-11-24T14:32:37.214Z",
+      "updatedAt": "2025-11-24T14:32:53.524Z",
+      "completedAt": "2025-11-24T14:32:52.214Z"
+    }
+  ],
+  "progress-updates": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "authorId": "1",
+      "content": "Завершил проектирование архитектуры базы данных. Созданы все необходимые диаграммы.",
+      "milestoneId": "1",
+      "createdAt": "2024-01-28T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "projectId": "1",
+      "authorId": "2",
+      "content": "Начал работу над компонентами React для корзины покупок.",
+      "milestoneId": "2",
+      "createdAt": "2024-01-25T16:45:00Z"
+    },
+    {
+      "id": "3",
+      "projectId": "e406",
+      "authorId": "816",
+      "content": "Базовая HTML структура готова. Приступаю к CSS анимациям.",
+      "milestoneId": "4",
+      "createdAt": "2025-11-24T13:27:33.947Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": "2",
+      "type": "invite",
+      "title": "Приглашение в команду",
+      "message": "Вас пригласили присоединиться к проекту 'Интернет-магазин на React'",
+      "relatedId": "1",
+      "isRead": true,
+      "createdAt": "2024-01-21T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "816",
+      "type": "milestone",
+      "title": "Этап завершен",
+      "message": "Этап 'Создание HTML структуры' в проекте 'Машинка' завершен",
+      "relatedId": "4",
+      "isRead": true,
+      "createdAt": "2025-11-24T13:30:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "816",
+      "type": "comment",
+      "title": "Новый комментарий",
+      "message": "К вашему проекту 'Машинка' добавлен новый комментарий",
+      "relatedId": "e406",
+      "isRead": true,
+      "createdAt": "2025-11-24T14:00:00Z"
+    },
+    {
+      "id": "6687",
+      "userId": "816",
+      "type": "invite",
+      "title": "Приглашение в команду",
+      "message": "Вас пригласили присоединиться к проекту \"Интернет-магазин на React\"",
+      "relatedId": "1",
+      "isRead": true,
+      "createdAt": "2025-11-24T16:48:07.568Z"
+    },
+    {
+      "id": "fa0f",
+      "userId": 1,
+      "type": "system",
+      "title": "Новый участник",
+      "message": "Пользователь Arika присоединился к вашему проекту \"Интернет-магазин на React\"",
+      "relatedId": "1",
+      "isRead": true,
+      "createdAt": "2025-11-24T16:48:36.407Z"
+    },
+    {
+      "id": "4091",
+      "userId": "1",
+      "type": "invite",
+      "title": "Приглашение в команду",
+      "message": "Вас пригласили присоединиться к проекту \"Машинка\"",
+      "relatedId": "e406",
+      "isRead": true,
+      "createdAt": "2025-11-24T16:55:33.081Z"
+    },
+    {
+      "id": "03a9",
+      "userId": "816",
+      "type": "system",
+      "title": "Новый участник",
+      "message": "Пользователь Иван Петров присоединился к вашему проекту \"Машинка\"",
+      "relatedId": "e406",
+      "isRead": true,
+      "createdAt": "2025-11-24T16:56:06.823Z"
+    }
+  ]
+}
