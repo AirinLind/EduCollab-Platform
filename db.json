@@ -199,6 +199,14 @@
       "projectId": "e406",
       "createdAt": "2025-11-24T16:53:51.649Z",
       "updatedAt": "2025-11-24T16:53:51.649Z"
+    },
+    {
+      "id": "fa31",
+      "content": "Крутой проект!",
+      "authorId": "1",
+      "projectId": "e406",
+      "createdAt": "2025-11-27T08:18:04.714Z",
+      "updatedAt": "2025-11-27T08:18:04.714Z"
     }
   ],
   "team-members": [
@@ -257,6 +265,13 @@
       "projectId": "e406",
       "role": "member",
       "joinedAt": "2025-11-24T16:56:06.802Z"
+    },
+    {
+      "id": "3802",
+      "userId": "816",
+      "projectId": null,
+      "role": "owner",
+      "joinedAt": "2025-11-27T08:42:10.416Z"
     }
   ],
   "team-invites": [
@@ -439,6 +454,17 @@
       "createdAt": "2025-11-24T14:32:37.214Z",
       "updatedAt": "2025-11-24T14:32:53.524Z",
       "completedAt": "2025-11-24T14:32:52.214Z"
+    },
+    {
+      "id": "5c98",
+      "projectId": "e406",
+      "title": "sdcf",
+      "description": "advsfa",
+      "status": "completed",
+      "dueDate": "2003-09-02",
+      "createdAt": "2025-11-27T08:41:24.378Z",
+      "updatedAt": "2025-11-27T08:41:29.596Z",
+      "completedAt": "2025-11-27T08:41:29.595Z"
     }
   ],
   "progress-updates": [
